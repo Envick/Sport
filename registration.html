@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="top-content">
+          <div class="logo"><img src="images/logo.png" alt="Logo" /></div>
+          <div class="header-text">Спортивный Клуб ГГНТУ</div>
+        </div>
+        <div class="nav">
+          <ul>
+            <li><a href="main.html" class="active">Главная</a></li>
+            <li><a href="events.html">Мероприятия</a></li>
+            <li><a href="statistics.html">Статистика</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="registration-form">
+      <div class="container">
+        <form class="regist-form" method="POST">
+          <label for="name">ФИО (полностью)</label>
+          <input type="text" id="name" />
+          <label for="faculty">Институт (Выбрать из списка)</label>
+          <select id="faculcy">
+            <option value="">Институт нефти и газа</option>
+            <option value="">
+              Институт прикладных информационных технологий
+            </option>
+            <option value="">
+              Институт строительства, архитектуры и дизайна
+            </option>
+            <option value="">
+              Институт цифровой экономики и технологического предпринимательства
+            </option>
+            <option value="">Институт энергетики</option>
+            <option value="">
+              Факультет среднего профессионального образования
+            </option>
+          </select>
+          <label for="kafedra">Кафедра (выбрать из списка)</label>
+          <select id="kafedra">
+            <option value="">Информационные технологии (ИТ)</option>
+            <option value="">Информатика и вычислительная техника (ИВТ)</option>
+            <option value="">Сети связи и системы коммутации (СК)</option>
+          </select>
+          <label for="mail">Электронаня почта</label>
+          <input type="email" id="mail" />
+          <label for="phone">Телефон</label>
+          <input type="number" id="phone" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
