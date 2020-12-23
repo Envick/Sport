@@ -219,7 +219,7 @@ a.active {
   display: flex;
   flex-direction: column;
   width: 600px;
-  height: 500px;
+  height: 550px;
   margin: 0 auto;
   background: #b92034;
   color: #fff;
@@ -319,4 +319,13 @@ select {
 }
 .first-stats-item {
   padding-top: 40px;
+}
+button.submit {
+  width: 250px;
+  padding: 10px 0;
+  background-color: #212d3a;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 10px;
+  cursor: pointer;
 }
